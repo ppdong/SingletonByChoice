@@ -1,4 +1,3 @@
-pod 'SingletonByChoice', :git => 'h'
 d::Spec.new do |s|
   s.name     = 'SingletonByChoice'
   s.version  = '1.0'
@@ -9,6 +8,5 @@ d::Spec.new do |s|
   s.source   = { :git => 'https://github.com/rlisle/SingletonByChoice'}
   s.source_files = 'SingletonByChoice.{h,m}'
 
-  s.library = 'icucore'
 end
 
