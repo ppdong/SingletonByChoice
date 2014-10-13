@@ -1,4 +1,4 @@
-d::Spec.new do |s|
+Pod::Spec.new do |s|
   s.name     = 'SingletonByChoice'
   s.version  = '1.0'
   s.license  = 'MIT'
@@ -7,6 +7,5 @@ d::Spec.new do |s|
   s.author   = { 'Ron Lisle' => 'singletonbychoice@gmail.com' }
   s.source   = { :git => 'https://github.com/rlisle/SingletonByChoice'}
   s.source_files = 'SingletonByChoice.{h,m}'
-
 end
 
